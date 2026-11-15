@@ -17,19 +17,23 @@
 </head>
 <body>
 
-<div class="top" id="top">
-  <header class="site-header" id="header">
-    <div class="header-in">
-      <button class="icon-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" class="ic"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
-      <a class="brand" href="#hero" aria-label="The Home Sale — home">
-        <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><path d="M16 3l11 13-11 13L5 16z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M16 9l6 7-6 7-6-7z" fill="currentColor" opacity=".35"/></svg>
-        <span><b>The Home Sale</b><small>Al Ain · UAE</small></span>
-      </a>
-      <nav class="main-nav" id="mainNav" aria-label="Rooms"></nav>
-      <a class="btn btn-wa btn-sm" id="headerWa" target="_blank" rel="noopener"><svg class="ic fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span class="hide-xs">WhatsApp</span></a>
-    </div>
-  </header>
+<div class="announce" role="note">
+  <span>Huge Sale</span><i></i><span>Luxury furniture at heavily discounted prices</span><i class="hide-sm"></i><span class="hide-sm">Al Ain, UAE</span>
 </div>
+
+<header class="site-header" id="top">
+  <div class="wrap header-in">
+    <button class="icon-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" class="ic"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+    <a class="brand" href="#top" aria-label="The Home Sale — home">
+      <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><path d="M16 3l11 13-11 13L5 16z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M16 9l6 7-6 7-6-7z" fill="currentColor" opacity=".35"/></svg>
+      <span><b>The Home Sale</b><small>Al Ain · UAE</small></span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="Collections"></nav>
+    <a class="btn btn-wa btn-sm" id="headerWa" target="_blank" rel="noopener">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span class="hide-xs">WhatsApp</span>
+    </a>
+  </div>
+</header>
 
 <div class="drawer" id="drawer" hidden>
   <div class="drawer-bg" data-close-drawer></div>
@@ -45,20 +49,27 @@
 <main>
 <section class="hero" id="hero">
   <div class="hero-img" role="img" aria-label="Carved champagne-gold bed set with matching side tables and lamps"></div>
-  <div class="hero-copy">
+  <div class="wrap hero-in">
     <p class="eyebrow">The Private Collection Sale</p>
     <h1>Refined furniture.<br><em>Remarkable prices.</em></h1>
-    <p class="lead">Bed sets, sofas, lounge pieces and statement décor &mdash; mostly in excellent condition, all on discount. Reserve yours before they&rsquo;re gone.</p>
+    <p class="lead">Bed sets, sofas, lounge pieces and statement décor — mostly in excellent condition, all on discount. Reserve yours before they&rsquo;re gone.</p>
     <div class="hero-cta">
       <a class="btn btn-gold" href="#collection">Browse the collection</a>
-      <a class="btn btn-line" id="heroWa" target="_blank" rel="noopener"><svg class="ic fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Chat on WhatsApp</a>
+      <a class="btn btn-ghost" id="heroWa" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Chat on WhatsApp</a>
     </div>
     <dl class="stats" id="stats"></dl>
   </div>
 </section>
 
-<section class="strip" aria-label="Why buy">
-  <span>Huge sale prices</span><i></i><span>Mostly excellent condition</span><i></i><span>Based in Al Ain</span><i></i><span>Reply on WhatsApp</span>
+<section class="values wrap" aria-label="Why buy">
+  <div><svg viewBox="0 0 24 24" class="ic-l"><path d="M20 12l-8 8-9-9V4h7z"/><circle cx="7.5" cy="7.5" r="1.2"/></svg><h3>Sale prices</h3><p>Every piece is discounted — real bargains on quality furniture.</p></div>
+  <div><svg viewBox="0 0 24 24" class="ic-l"><path d="M12 3l2.6 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.7 6.7 19.7l1.1-6.1L3.3 9.4l6.1-.8z"/></svg><h3>Excellent condition</h3><p>Most of the furniture is in excellent, well-kept condition.</p></div>
+  <div><svg viewBox="0 0 24 24" class="ic-l"><path d="M12 21s7-6.2 7-11.5A7 7 0 005 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><h3>Based in Al Ain</h3><p>Message us to ask questions, see more photos or arrange a viewing.</p></div>
+  <div><svg viewBox="0 0 24 24" class="ic-l"><path d="M21 12a8.5 8.5 0 01-12.4 7.5L3 21l1.5-5.4A8.5 8.5 0 1121 12z"/></svg><h3>Reply on WhatsApp</h3><p>Tap any item to enquire — your message is ready to send.</p></div>
+</section>
+
+<section class="wrap" aria-labelledby="roomsTitle">
+  <div class="section-head"><p class="eyebrow">Shop by room</p><h2 id="roomsTitle">Curated spaces</h2></div>
 </section>
 
 <section class="tiles" id="tiles" aria-label="Shop by room"></section>
