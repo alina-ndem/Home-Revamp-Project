@@ -18,18 +18,15 @@
 <body>
 
 <div class="top" id="top">
-  <div class="announce" id="announce" role="note">
-    <p>Huge Sale &nbsp;·&nbsp; Luxury furniture at heavily discounted prices &nbsp;·&nbsp; Al Ain, UAE</p>
-    <button id="announceX" aria-label="Dismiss announcement">&times;</button>
-  </div>
   <header class="site-header" id="header">
     <div class="header-in">
       <button class="icon-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" class="ic"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
-      <a class="brand" href="#hero" aria-label="The Home Sale — home">The Home Sale</a>
-      <div class="header-r">
-        <button class="icon-btn" id="searchBtn" aria-label="Search furniture"><svg viewBox="0 0 24 24" class="ic"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg></button>
-        <a class="icon-btn" id="headerWa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg class="ic fill" viewBox="0 0 24 24"><use href="#wa"/></svg></a>
-      </div>
+      <a class="brand" href="#hero" aria-label="The Home Sale — home">
+        <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><path d="M16 3l11 13-11 13L5 16z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M16 9l6 7-6 7-6-7z" fill="currentColor" opacity=".35"/></svg>
+        <span><b>The Home Sale</b><small>Al Ain · UAE</small></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Rooms"></nav>
+      <a class="btn btn-wa btn-sm" id="headerWa" target="_blank" rel="noopener"><svg class="ic fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span class="hide-xs">WhatsApp</span></a>
     </div>
   </header>
 </div>
@@ -50,11 +47,13 @@
   <div class="hero-img" role="img" aria-label="Carved champagne-gold bed set with matching side tables and lamps"></div>
   <div class="hero-copy">
     <p class="eyebrow">The Private Collection Sale</p>
-    <h1>Luxury Furniture,<br>Priced to Go</h1>
+    <h1>Refined furniture.<br><em>Remarkable prices.</em></h1>
+    <p class="lead">Bed sets, sofas, lounge pieces and statement décor &mdash; mostly in excellent condition, all on discount. Reserve yours before they&rsquo;re gone.</p>
     <div class="hero-cta">
-      <a class="btn btn-white" href="#collection">Browse the collection</a>
-      <a class="btn btn-line" id="heroWa" target="_blank" rel="noopener"><svg class="ic fill" viewBox="0 0 24 24"><use href="#wa"/></svg>WhatsApp us</a>
+      <a class="btn btn-gold" href="#collection">Browse the collection</a>
+      <a class="btn btn-line" id="heroWa" target="_blank" rel="noopener"><svg class="ic fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Chat on WhatsApp</a>
     </div>
+    <dl class="stats" id="stats"></dl>
   </div>
 </section>
 
@@ -65,7 +64,7 @@
 <section class="tiles" id="tiles" aria-label="Shop by room"></section>
 
 <section class="banner" id="bannerA">
-  <div class="banner-img" style="background-image:url(images/master-lamps.webp)"></div>
+  <div class="banner-img" style="background-image:url(images/dining-table.webp)"></div>
   <div class="banner-copy">
     <h2>Every Piece, Discounted</h2>
     <a class="btn btn-white" href="#collection">Shop all furniture</a>
@@ -92,7 +91,7 @@
 </section>
 
 <section class="banner tall" id="bannerB">
-  <div class="banner-img" style="background-image:url(images/master-wicker.webp)"></div>
+  <div class="banner-img" style="background-image:url(images/drawing-sofa-set.webp)"></div>
   <div class="banner-copy">
     <h2>Found Something You Love?</h2>
     <p>Pieces sell quickly at these prices. Message us to confirm availability and reserve yours.</p>
