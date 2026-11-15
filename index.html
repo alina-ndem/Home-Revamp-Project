@@ -14,6 +14,18 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23262524'/%3E%3Cpath d='M16 5l9 11-9 11-9-11z' fill='none' stroke='%23e8cfa8' stroke-width='1.6'/%3E%3C/svg%3E">
 <link rel="preload" href="fonts/cormorant-garamond-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/styles.css">
+<style>
+/* background music button */
+.snd{position:fixed;left:18px;bottom:18px;z-index:60;width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.7);background:rgba(26,22,19,.72);color:#fff;display:grid;place-items:center;cursor:pointer;backdrop-filter:blur(6px);transition:transform .2s,background .2s}
+.snd:hover{transform:scale(1.08);background:rgba(26,22,19,.9)}
+.snd svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.snd .off{display:none}
+.snd.muted .on{display:none}.snd.muted .off{display:block}
+.snd.nudge{animation:sndpulse 2s infinite}
+@keyframes sndpulse{0%{box-shadow:0 0 0 0 rgba(211,182,133,.7)}100%{box-shadow:0 0 0 16px rgba(211,182,133,0)}}
+@media(prefers-reduced-motion:reduce){.snd.nudge{animation:none}}
+</style>
+
 </head>
 <body>
 
@@ -151,6 +163,47 @@
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 004.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.14c-.25.69-1.44 1.32-1.99 1.37-.51.05-1.15.07-1.86-.16-.43-.14-.98-.32-1.69-.63-2.97-1.28-4.9-4.27-5.05-4.47-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.79-.37h.57c.18 0 .43-.07.67.51.25.6.84 2.05.91 2.2.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.05 1.13 1.01 2.09 1.32 2.39 1.47.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.07.12.07.72-.18 1.4z"/></symbol></svg>
 
+<audio id="bgm" src="audio/music.mp3" loop preload="auto"></audio>
+<button class="snd muted" id="sndBtn" type="button" aria-label="Turn music on" aria-pressed="false">
+  <svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z"/><path d="M15.5 9a4 4 0 010 6M18 6.5a7.5 7.5 0 010 11"/></svg>
+  <svg class="off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z"/><path d="M16 9.5l5 5M21 9.5l-5 5"/></svg>
+</button>
+<script>
+/* Background music: loops, starts when the site opens.
+   Browsers only allow sound after the visitor's first tap/click/key press,
+   so if autoplay is blocked it starts on the first interaction. */
+(function () {
+  var a = document.getElementById("bgm"), btn = document.getElementById("sndBtn");
+  var KEY = "musicMuted", started = false;
+  a.volume = 0.5;
+  function saved() { try { return localStorage.getItem(KEY) === "1"; } catch (e) { return false; } }
+  function save(v) { try { localStorage.setItem(KEY, v ? "1" : "0"); } catch (e) {} }
+  function ui(playing) {
+    btn.classList.toggle("muted", !playing);
+    btn.setAttribute("aria-pressed", playing ? "true" : "false");
+    btn.setAttribute("aria-label", playing ? "Turn music off" : "Turn music on");
+  }
+  var evs = ["pointerdown", "click", "keydown", "touchend"];
+  function off() { evs.forEach(function (e) { document.removeEventListener(e, kick, true); }); }
+  function kick(ev) {
+    if (btn.contains(ev.target)) return;
+    play();
+  }
+  function play() {
+    var p = a.play();
+    if (p && p.then) {
+      p.then(function () { started = true; ui(true); btn.classList.remove("nudge"); off(); })
+       .catch(function () { ui(false); btn.classList.add("nudge"); });
+    }
+  }
+  btn.addEventListener("click", function () {
+    if (a.paused) { save(false); play(); } else { a.pause(); save(true); ui(false); btn.classList.remove("nudge"); off(); }
+  });
+  if (saved()) { ui(false); return; }          // visitor turned it off before: stay quiet
+  evs.forEach(function (e) { document.addEventListener(e, kick, true); });
+  play();                                       // try right away
+})();
+</script>
 <script src="js/products.js"></script>
 <script src="js/app.js"></script>
 </body>
