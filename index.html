@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Home Sale · Luxury Furniture Sale in Al Ain</title>
+<meta name="description" content="Huge sale on luxury bedroom, lounge, dining and décor furniture in Al Ain, UAE. Most pieces in excellent condition. Message us on WhatsApp to reserve.">
+<meta property="og:title" content="The Home Sale · Luxury Furniture Sale in Al Ain">
+<meta property="og:description" content="Huge sale prices on bedroom sets, sofas, dining and décor. Most in excellent condition.">
+<meta property="og:type" content="website">
+<!-- After deploying, replace the URL below with your real GitHub Pages address so WhatsApp shows a preview picture -->
+<meta property="og:image" content="https://YOUR-USERNAME.github.io/YOUR-REPO/images/og.jpg">
+<meta name="theme-color" content="#262524">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23262524'/%3E%3Cpath d='M16 5l9 11-9 11-9-11z' fill='none' stroke='%23e8cfa8' stroke-width='1.6'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/cormorant-garamond-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="top" id="top">
+  <div class="announce" id="announce" role="note">
+    <p>Huge Sale &nbsp;·&nbsp; Luxury furniture at heavily discounted prices &nbsp;·&nbsp; Al Ain, UAE</p>
+    <button id="announceX" aria-label="Dismiss announcement">&times;</button>
+  </div>
+  <header class="site-header" id="header">
+    <div class="header-in">
+      <button class="icon-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" class="ic"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+      <a class="brand" href="#hero" aria-label="The Home Sale — home">The Home Sale</a>
+      <div class="header-r">
+        <button class="icon-btn" id="searchBtn" aria-label="Search furniture"><svg viewBox="0 0 24 24" class="ic"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg></button>
+        <a class="icon-btn" id="headerWa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg class="ic fill" viewBox="0 0 24 24"><use href="#wa"/></svg></a>
+      </div>
+    </div>
+  </header>
+</div>
+
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer-bg" data-close-drawer></div>
+  <aside class="drawer-panel" aria-label="Menu">
+    <button class="drawer-x" data-close-drawer aria-label="Close menu">&times;</button>
+    <p class="eyebrow">Shop by room</p>
+    <nav id="drawerNav"></nav>
+    <a class="btn btn-wa btn-block" id="drawerWa" target="_blank" rel="noopener"><svg class="ic fill" viewBox="0 0 24 24"><use href="#wa"/></svg>Chat on WhatsApp</a>
+    <p class="drawer-phone">050 763 1217</p>
+  </aside>
+</div>
+
+<main>
+<section class="hero" id="hero">
+  <div class="hero-img" role="img" aria-label="Carved champagne-gold bed set with matching side tables and lamps"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">The Private Collection Sale</p>
+    <h1>Luxury Furniture,<br>Priced to Go</h1>
+    <div class="hero-cta">
+      <a class="btn btn-white" href="#collection">Browse the collection</a>
+      <a class="btn btn-line" id="heroWa" target="_blank" rel="noopener"><svg class="ic fill" viewBox="0 0 24 24"><use href="#wa"/></svg>WhatsApp us</a>
+    </div>
+  </div>
+</section>
+
+<section class="strip" aria-label="Why buy">
+  <span>Huge sale prices</span><i></i><span>Mostly excellent condition</span><i></i><span>Based in Al Ain</span><i></i><span>Reply on WhatsApp</span>
+</section>
+
+<section class="tiles" id="tiles" aria-label="Shop by room"></section>
+
+<section class="banner" id="bannerA">
+  <div class="banner-img" style="background-image:url(images/master-lamps.webp)"></div>
+  <div class="banner-copy">
+    <h2>Every Piece, Discounted</h2>
+    <a class="btn btn-white" href="#collection">Shop all furniture</a>
+  </div>
+</section>
+
+<section class="collection" id="collection">
+  <div class="toolbar" id="toolbar">
+    <div class="chips" id="chips" role="tablist" aria-label="Filter by room"></div>
+    <div class="tools">
+      <label class="search"><svg viewBox="0 0 24 24" class="ic" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg><input id="q" type="search" placeholder="Search furniture" aria-label="Search furniture"></label>
+      <label class="sort"><span class="sr">Sort</span>
+        <select id="sort" aria-label="Sort products">
+          <option value="featured">Featured</option>
+          <option value="low">Price: low to high</option>
+          <option value="high">Price: high to low</option>
+        </select>
+      </label>
+    </div>
+  </div>
+  <p class="count" id="count" aria-live="polite"></p>
+  <div id="groups"></div>
+  <p class="empty" id="empty" hidden>No pieces match your search. <button class="link" id="reset">Clear filters</button></p>
+</section>
+
+<section class="banner tall" id="bannerB">
+  <div class="banner-img" style="background-image:url(images/master-wicker.webp)"></div>
+  <div class="banner-copy">
+    <h2>Found Something You Love?</h2>
+    <p>Pieces sell quickly at these prices. Message us to confirm availability and reserve yours.</p>
+    <a class="btn btn-white" id="ctaWa" target="_blank" rel="noopener"><svg class="ic fill" viewBox="0 0 24 24"><use href="#wa"/></svg>Message us on WhatsApp</a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="foot-grid">
+    <div class="foot-lead">
+      <h3>Reserve Yours</h3>
+      <p>Questions, extra photos or a viewing in Al Ain? Message us and we&rsquo;ll reply on WhatsApp.</p>
+      <a class="btn btn-white" id="footWa" target="_blank" rel="noopener"><svg class="ic fill" viewBox="0 0 24 24"><use href="#wa"/></svg>WhatsApp</a>
+    </div>
+    <div class="foot-cols">
+      <div><h4>Rooms</h4><nav id="footNav"></nav></div>
+      <div><h4>Contact</h4><a href="tel:+971507631217">050 763 1217</a><span>Al Ain, UAE</span></div>
+      <div><h4>Good to know</h4><span>All prices in AED</span><span>Subject to prior sale</span><span>Ask what is included</span></div>
+    </div>
+  </div>
+  <p class="foot-fine">Photos show furniture styled with décor; please ask what is included with each piece. &copy; The Home Sale</p>
+</footer>
+
+<a class="fab" id="fab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg></a>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-labelledby="lbName">
+  <div class="lb-bg" data-close></div>
+  <div class="lb-box">
+    <button class="lb-x" data-close aria-label="Close">&times;</button>
+    <div class="lb-stage">
+      <button class="lb-nav prev" id="lbPrev" aria-label="Previous photo">&#8249;</button>
+      <img id="lbImg" alt="">
+      <button class="lb-nav next" id="lbNext" aria-label="Next photo">&#8250;</button>
+    </div>
+    <div class="lb-side">
+      <p class="eyebrow" id="lbCat"></p>
+      <h3 id="lbName"></h3>
+      <p class="lb-price" id="lbPrice"></p>
+      <div class="lb-thumbs" id="lbThumbs"></div>
+      <a class="btn btn-wa btn-block" id="lbWa" target="_blank" rel="noopener"><svg class="ic fill" viewBox="0 0 24 24"><use href="#wa"/></svg>Enquire on WhatsApp</a>
+      <p class="fine">Most items are in excellent condition. Message us for more photos or details.</p>
+    </div>
+  </div>
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 004.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.14c-.25.69-1.44 1.32-1.99 1.37-.51.05-1.15.07-1.86-.16-.43-.14-.98-.32-1.69-.63-2.97-1.28-4.9-4.27-5.05-4.47-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.79-.37h.57c.18 0 .43-.07.67.51.25.6.84 2.05.91 2.2.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.05 1.13 1.01 2.09 1.32 2.39 1.47.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.07.12.07.72-.18 1.4z"/></symbol></svg>
+
+<script src="js/products.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
