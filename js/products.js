@@ -108,24 +108,6 @@ window.PRODUCTS=[
   "v": 0.667
  },
  {
-  "id": "master-console",
-  "name": "Black Wooden Console",
-  "price": 300,
-  "category": "noir",
-  "images": [
-   {
-    "src": "images/master-console.webp",
-    "thumb": "images/master-console-sm.webp",
-    "w": 1400,
-    "h": 1050,
-    "top": "#d7bd98",
-    "bot": "#ddb997"
-   }
-  ],
-  "sold": false,
-  "v": 0.525
- },
- {
   "id": "master-wicker",
   "name": "Wicker Chairs with Glass Table",
   "price": 250,
