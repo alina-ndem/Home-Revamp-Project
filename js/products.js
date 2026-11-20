@@ -111,7 +111,7 @@ window.PRODUCTS=[
   "id": "master-console",
   "name": "Black Wooden Console",
   "price": 300,
-  "category": "master",
+  "category": "noir",
   "images": [
    {
     "src": "images/master-console.webp",
@@ -281,7 +281,7 @@ window.PRODUCTS=[
  {
   "id": "master-lg-fridge",
   "name": "LG Stainless Steel Refrigerator",
-  "price": null,
+  "price": 500,
   "category": "master",
   "images": [
    {
