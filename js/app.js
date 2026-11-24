@@ -9,6 +9,12 @@
   var state = { cat: "all", q: "", sort: "featured" };
   var fmt = function (n) { return n.toLocaleString("en-US"); };
   var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+  // red folded corner ribbon (top-left): SOLD OUT
+  function soldSvg() {
+    return '<svg viewBox="0 0 306 310" role="img" aria-label="Sold out" xmlns="http://www.w3.org/2000/svg">' +
+      '<path d="M272 0H151Q145 0 140 5L5 140Q0 145 0 151V272Z" fill="#c4202b"/>' +
+      '<text transform="translate(104 104) rotate(-45)" text-anchor="middle" dominant-baseline="central" textLength="172" lengthAdjust="spacingAndGlyphs" fill="#fff" font-size="46" font-weight="700" font-family="Bebas Neue,Oswald,Impact,Haettenschweiler,Arial Narrow,sans-serif">SOLD OUT</text></svg>';
+  }
   var WA_ICON = '<svg class="ic fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>';
 
   function waLink(p) {
@@ -97,7 +103,7 @@
     return '<article class="card' + (wide ? ' wide' : '') + (p.sold ? ' sold' : '') + '">' +
       '<button class="card-img" data-id="' + p.id + '" aria-label="View ' + esc(p.name) + '">' +
       pic(im, "main", p.name, wide) + (im2 ? pic(im2, "alt", "", wide) : '') + '</button>' +
-      (p.sold ? '<span class="badge">SOLD OUT</span>' : '') +
+      (p.sold ? '<span class="badge">' + soldSvg() + '</span>' : '') +
       '<div class="card-b"><div><h4>' + esc(p.name) + '</h4><div class="price">' + priceHTML(p) + '</div></div>' +
       '<a class="enq" target="_blank" rel="noopener" aria-label="Enquire about ' + esc(p.name) + ' on WhatsApp" href="' + waLink(p) + '">' + WA_ICON + '</a></div></article>';
   }
@@ -129,7 +135,7 @@
     $("#lbCat").textContent = catName[cur.category];
     $("#lbPrice").innerHTML = cur.price == null ? '<span class="ask">Ask for price</span>' : "AED " + fmt(cur.price) + (cur.was ? "<s>AED " + fmt(cur.was) + "</s>" : "");
     $("#lbWa").href = waLink(cur);
-    $("#lbSold").hidden = !cur.sold;
+    $("#lbSold").innerHTML = soldSvg(); $("#lbSold").hidden = !cur.sold;
     $("#lbThumbs").innerHTML = cur.images.length > 1 ? cur.images.map(function (im, i) { return '<button data-i="' + i + '" aria-label="Photo ' + (i + 1) + '"><img src="' + im.thumb + '" alt=""></button>'; }).join("") : "";
     show(0); lb.hidden = false; document.body.style.overflow = "hidden"; $(".lb-x").focus();
   }
