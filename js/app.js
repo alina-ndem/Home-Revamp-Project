@@ -13,7 +13,7 @@
   function soldSvg() {
     return '<svg viewBox="0 0 306 310" role="img" aria-label="Sold out" xmlns="http://www.w3.org/2000/svg">' +
       '<path d="M272 0H151Q145 0 140 5L5 140Q0 145 0 151V272Z" fill="#c4202b"/>' +
-      '<text transform="translate(104 104) rotate(-45)" text-anchor="middle" dominant-baseline="central" textLength="172" lengthAdjust="spacingAndGlyphs" fill="#fff" font-size="46" font-weight="700" font-family="Bebas Neue,Oswald,Impact,Haettenschweiler,Arial Narrow,sans-serif">SOLD OUT</text></svg>';
+      '<text transform="translate(104 104) rotate(-45)" text-anchor="middle" dominant-baseline="central" textLength="172" lengthAdjust="spacingAndGlyphs" fill="#fff" font-size="46" font-weight="400" font-family="Jost,system-ui,sans-serif">SOLD OUT</text></svg>';
   }
   var WA_ICON = '<svg class="ic fill" viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>';
 
