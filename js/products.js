@@ -2100,57 +2100,6 @@ window.PRODUCTS=[
   "sold": false
  },
  {
-  "id": "gadget-steril",
-  "name": "Steril Professional Sterilizer Cabinet",
-  "price": null,
-  "category": "gadgets",
-  "images": [
-   {
-    "src": "images/gadget-steril.webp",
-    "thumb": "images/gadget-steril-sm.webp",
-    "w": 1400,
-    "h": 1050,
-    "top": "#f3dbc0",
-    "bot": "#ead4c1"
-   }
-  ],
-  "sold": false
- },
- {
-  "id": "gadget-foot-spa",
-  "name": "Taurus Bahia Essential Foot Spa",
-  "price": null,
-  "category": "gadgets",
-  "images": [
-   {
-    "src": "images/gadget-foot-spa.webp",
-    "thumb": "images/gadget-foot-spa-sm.webp",
-    "w": 1206,
-    "h": 1305,
-    "top": "#ccb097",
-    "bot": "#c5a88e"
-   }
-  ],
-  "sold": false
- },
- {
-  "id": "gadget-facial-steamer",
-  "name": "Taurus Sauna Essential Facial Steamer",
-  "price": null,
-  "category": "gadgets",
-  "images": [
-   {
-    "src": "images/gadget-facial-steamer.webp",
-    "thumb": "images/gadget-facial-steamer-sm.webp",
-    "w": 1400,
-    "h": 1050,
-    "top": "#eee3dc",
-    "bot": "#d1b29b"
-   }
-  ],
-  "sold": false
- },
- {
   "id": "gadget-westpoint-freezer",
   "name": "Westpoint Upright Freezer",
   "price": null,
@@ -2202,7 +2151,7 @@ window.PRODUCTS=[
  },
  {
   "id": "gadget-beauty-gadgets",
-  "name": "Beauty & Wellness Gadget Collection (Steamer, Massager, Foot Spa, Hair Brush)",
+  "name": "Beauty & Wellness Collection (Facial Steamer, Foot Spa, Massager, Hair Brush, Sterilizer & Display Stand)",
   "price": null,
   "category": "gadgets",
   "images": [
@@ -2221,6 +2170,38 @@ window.PRODUCTS=[
     "h": 1050,
     "top": "#d6b9a2",
     "bot": "#cdae94"
+   },
+   {
+    "src": "images/gadget-facial-steamer.webp",
+    "thumb": "images/gadget-facial-steamer-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#eee3dc",
+    "bot": "#d1b29b"
+   },
+   {
+    "src": "images/gadget-foot-spa.webp",
+    "thumb": "images/gadget-foot-spa-sm.webp",
+    "w": 1206,
+    "h": 1305,
+    "top": "#ccb097",
+    "bot": "#c5a88e"
+   },
+   {
+    "src": "images/gadget-steril.webp",
+    "thumb": "images/gadget-steril-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#f3dbc0",
+    "bot": "#ead4c1"
+   },
+   {
+    "src": "images/gadget-display-stand.webp",
+    "thumb": "images/gadget-display-stand-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#c5bab1",
+    "bot": "#d4baa4"
    }
   ],
   "sold": false
@@ -2238,23 +2219,6 @@ window.PRODUCTS=[
     "h": 1400,
     "top": "#7b4d3a",
     "bot": "#bb8f6d"
-   }
-  ],
-  "sold": false
- },
- {
-  "id": "gadget-display-stand",
-  "name": "White Metal Display Stand with Black Panel",
-  "price": null,
-  "category": "gadgets",
-  "images": [
-   {
-    "src": "images/gadget-display-stand.webp",
-    "thumb": "images/gadget-display-stand-sm.webp",
-    "w": 1400,
-    "h": 1050,
-    "top": "#c5bab1",
-    "bot": "#d4baa4"
    }
   ],
   "sold": false
