@@ -161,7 +161,9 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.02}
 .enq:hover{background:var(--wa);border-color:var(--wa)}
 .enq .ic{width:18px;height:18px}
 .badge{position:absolute;top:14px;left:14px;z-index:3;background:#fff;color:var(--ink);font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;padding:5px 10px;font-weight:500}
-.card.sold .card-img img{filter:grayscale(1);opacity:.55}
+.card .badge{top:12px;left:auto;right:12px;background:#ffe14d;color:#1a1714;font:700 .72rem var(--sans);letter-spacing:.14em;padding:6px 11px;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.3);pointer-events:none}
+.sold-flag{position:absolute;top:14px;right:14px;z-index:2;background:#ffe14d;color:#1a1714;font:700 .9rem var(--sans);letter-spacing:.14em;padding:7px 14px;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.3);pointer-events:none}
+.sold-flag[hidden]{display:none}
 .card.sold .enq{display:none}
 .empty{text-align:center;color:var(--muted);padding:80px var(--gut)}
 
