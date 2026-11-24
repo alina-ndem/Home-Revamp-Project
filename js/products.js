@@ -623,8 +623,8 @@ window.PRODUCTS=[
  },
  {
   "id": "noir-vase-set",
-  "name": "Blue & White Ceramic Vase Collection",
-  "price": null,
+  "name": "Blue & White Ceramic Vase Collection (3 Piece Set)",
+  "price": 70,
   "category": "noir",
   "images": [
    {
@@ -1051,7 +1051,7 @@ window.PRODUCTS=[
  {
   "id": "drawing-brass-lamp",
   "name": "Antique Brass Floor Lamp",
-  "price": 59,
+  "price": 75,
   "category": "drawing",
   "images": [
    {
@@ -1864,7 +1864,7 @@ window.PRODUCTS=[
  {
   "id": "jewel-emerald-choker",
   "name": "Emerald Filigree Choker Set with Earrings",
-  "price": null,
+  "price": 69,
   "category": "jewel",
   "images": [
    {
@@ -1881,7 +1881,7 @@ window.PRODUCTS=[
  {
   "id": "jewel-leaf-bangles",
   "name": "Gold Leaf Charm Bangles (Two Sets)",
-  "price": null,
+  "price": 60,
   "category": "jewel",
   "images": [
    {
@@ -1898,7 +1898,7 @@ window.PRODUCTS=[
  {
   "id": "jewel-starburst-clips",
   "name": "Gold Starburst Crystal Hair Clips (Pair)",
-  "price": null,
+  "price": 20,
   "category": "jewel",
   "images": [
    {
@@ -1914,8 +1914,8 @@ window.PRODUCTS=[
  },
  {
   "id": "jewel-gold-bridal-set",
-  "name": "Ornate Gold Necklace Set with Earrings & Tikka",
-  "price": null,
+  "name": "Ornate Gold Bridal Set (Necklace, Earrings & Tikka)",
+  "price": 75,
   "category": "jewel",
   "images": [
    {
@@ -1932,7 +1932,7 @@ window.PRODUCTS=[
  {
   "id": "jewel-beaded-set",
   "name": "Gold & Black Bead Tassel Necklace Set",
-  "price": null,
+  "price": 75,
   "category": "jewel",
   "images": [
    {
@@ -1949,7 +1949,7 @@ window.PRODUCTS=[
  {
   "id": "jewel-square-earrings",
   "name": "Gold & Silver Crystal Square Earrings",
-  "price": null,
+  "price": 49,
   "category": "jewel",
   "images": [
    {
@@ -1966,7 +1966,7 @@ window.PRODUCTS=[
  {
   "id": "jewel-filigree-ring",
   "name": "Silver Filigree Statement Ring",
-  "price": null,
+  "price": 35,
   "category": "jewel",
   "images": [
    {
@@ -1983,7 +1983,7 @@ window.PRODUCTS=[
  {
   "id": "jewel-floral-studs",
   "name": "Crystal Floral Stud Earrings",
-  "price": null,
+  "price": 25,
   "category": "jewel",
   "images": [
    {
@@ -1999,8 +1999,8 @@ window.PRODUCTS=[
  },
  {
   "id": "jewel-fringe-earrings",
-  "name": "Crystal Fringe Chandelier Earrings",
-  "price": null,
+  "name": "Rhinestone Chandelier Earrings",
+  "price": 69,
   "category": "jewel",
   "images": [
    {
@@ -2017,7 +2017,7 @@ window.PRODUCTS=[
  {
   "id": "jewel-lattice-pendant",
   "name": "Crystal & Onyx Lattice Pendant with Tassel",
-  "price": null,
+  "price": 29,
   "category": "jewel",
   "images": [
    {
@@ -2034,7 +2034,7 @@ window.PRODUCTS=[
  {
   "id": "jewel-zigzag-earrings",
   "name": "Zigzag Crystal Drop Earrings",
-  "price": null,
+  "price": 29,
   "category": "jewel",
   "images": [
    {
@@ -2051,7 +2051,7 @@ window.PRODUCTS=[
  {
   "id": "jewel-antique-set",
   "name": "Antique Gold Filigree Set with Earrings & Tikka",
-  "price": null,
+  "price": 95,
   "category": "jewel",
   "images": [
    {
@@ -2067,8 +2067,8 @@ window.PRODUCTS=[
  },
  {
   "id": "jewel-medallions",
-  "name": "Crystal Filigree Medallion Pieces (Pair)",
-  "price": null,
+  "name": "Crystal Filigree Broach (Pair)",
+  "price": 39,
   "category": "jewel",
   "images": [
    {
@@ -2152,7 +2152,7 @@ window.PRODUCTS=[
  {
   "id": "gadget-beauty-gadgets",
   "name": "Beauty & Wellness Collection (Facial Steamer, Foot Spa, Massager, Hair Brush, Sterilizer & Display Stand)",
-  "price": null,
+  "price": 299,
   "category": "gadgets",
   "images": [
    {
