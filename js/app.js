@@ -23,7 +23,7 @@
       : "Hello! I saw your furniture sale website and I'd like to know more.";
     return "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(msg);
   }
-  ["headerWa", "heroWa", "ctaWa", "fab", "drawerWa", "footWa"].forEach(function (id) { $("#" + id).href = waLink(); });
+  ["heroWa", "ctaWa", "fab", "drawerWa", "footWa"].forEach(function (id) { $("#" + id).href = waLink(); });
 
   function priceHTML(p) {
     if (p.price == null) return '<span class="ask">Ask for price</span>';
