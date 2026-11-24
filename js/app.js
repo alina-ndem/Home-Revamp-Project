@@ -1,7 +1,7 @@
 (function () {
   // ===== Settings =====
   var WHATSAPP = "971507631217"; // 050 763 1217 in international format
-  var COVER = { lobby: "lobby-curtain" }; // optional: which item's photo is the room tile (default: first item)
+  var COVER = { lobby: "lobby-curtain", jewel: "jewel-medallions", gadgets: "gadget-bompani-range" }; // optional: which item's photo is the room tile (default: first item)
 
   var cats = window.CATEGORIES, prods = window.PRODUCTS;
   var $ = function (s, r) { return (r || document).querySelector(s); };
