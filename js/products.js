@@ -153,7 +153,7 @@ window.PRODUCTS=[
  {
   "id": "master-globe-lamp",
   "name": "Ornate Globed Lamp with Rope Accents and Stand",
-  "price": 200,
+  "price": 150,
   "category": "master",
   "images": [
    {
