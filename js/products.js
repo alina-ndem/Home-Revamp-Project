@@ -148,7 +148,7 @@ window.PRODUCTS=[
     "bot": "#8d8177"
    }
   ],
-  "sold": false
+  "sold": true
  },
  {
   "id": "master-globe-lamp",
@@ -190,7 +190,7 @@ window.PRODUCTS=[
     "bot": "#5c5654"
    }
   ],
-  "sold": false
+  "sold": true
  },
  {
   "id": "master-coral-floor-lamp",
@@ -275,7 +275,7 @@ window.PRODUCTS=[
     "bot": "#ac9f94"
    }
   ],
-  "sold": false
+  "sold": true
  },
  {
   "id": "master-ivory-tasselled-curtains",
@@ -524,7 +524,7 @@ window.PRODUCTS=[
     "top": "#e5cea9"
    }
   ],
-  "sold": false
+  "sold": true
  },
  {
   "id": "noir-curtain-taupe",
@@ -676,7 +676,7 @@ window.PRODUCTS=[
     "bot": "#d3b49b"
    }
   ],
-  "sold": false,
+  "sold": true,
   "v": 0.537
  },
  {
