@@ -97,7 +97,7 @@
     return '<article class="card' + (wide ? ' wide' : '') + (p.sold ? ' sold' : '') + '">' +
       '<button class="card-img" data-id="' + p.id + '" aria-label="View ' + esc(p.name) + '">' +
       pic(im, "main", p.name, wide) + (im2 ? pic(im2, "alt", "", wide) : '') + '</button>' +
-      (p.sold ? '<span class="badge">Sold</span>' : '') +
+      (p.sold ? '<span class="badge">SOLD OUT</span>' : '') +
       '<div class="card-b"><div><h4>' + esc(p.name) + '</h4><div class="price">' + priceHTML(p) + '</div></div>' +
       '<a class="enq" target="_blank" rel="noopener" aria-label="Enquire about ' + esc(p.name) + ' on WhatsApp" href="' + waLink(p) + '">' + WA_ICON + '</a></div></article>';
   }
@@ -129,6 +129,7 @@
     $("#lbCat").textContent = catName[cur.category];
     $("#lbPrice").innerHTML = cur.price == null ? '<span class="ask">Ask for price</span>' : "AED " + fmt(cur.price) + (cur.was ? "<s>AED " + fmt(cur.was) + "</s>" : "");
     $("#lbWa").href = waLink(cur);
+    $("#lbSold").hidden = !cur.sold;
     $("#lbThumbs").innerHTML = cur.images.length > 1 ? cur.images.map(function (im, i) { return '<button data-i="' + i + '" aria-label="Photo ' + (i + 1) + '"><img src="' + im.thumb + '" alt=""></button>'; }).join("") : "";
     show(0); lb.hidden = false; document.body.style.overflow = "hidden"; $(".lb-x").focus();
   }
