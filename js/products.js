@@ -92,7 +92,7 @@ window.PRODUCTS=[
  {
   "id": "master-lamps",
   "name": "Luxurious Ornate Lamps",
-  "price": 300,
+  "price": 149,
   "category": "master",
   "images": [
    {
@@ -323,7 +323,7 @@ window.PRODUCTS=[
  {
   "id": "burg-chairs",
   "name": "Elegant Bedroom Chairs (Pair)",
-  "price": 800,
+  "price": 299,
   "category": "burgundy",
   "images": [
    {
@@ -584,7 +584,7 @@ window.PRODUCTS=[
  {
   "id": "noir-console",
   "name": "Black Wooden Console",
-  "price": 300,
+  "price": 129,
   "category": "noir",
   "images": [
    {
@@ -682,7 +682,7 @@ window.PRODUCTS=[
  {
   "id": "lounge-crescent",
   "name": "Warm Crescent Floral Lamp with Lights",
-  "price": 800,
+  "price": 399,
   "category": "lounge",
   "images": [
    {
