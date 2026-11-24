@@ -59,7 +59,7 @@
     var cover = pick.images[0];
     var from = Math.min.apply(null, items.filter(function (p) { return p.price != null; }).map(function (p) { return p.price; }));
     return '<button class="tile" data-cat="' + c.id + '"><img src="' + cover.src + '" alt="" loading="lazy" width="' + cover.w + '" height="' + cover.h + '">' +
-      '<div class="tile-t"><h3>' + esc(c.name) + '</h3><span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><small>From AED ' + from + '</small></div></button>';
+      '<div class="tile-t"><h3>' + esc(c.name) + '</h3><span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><small>' + (isFinite(from) ? 'From AED ' + from : 'Ask for price') + '</small></div></button>';
   }).join("");
 
   var chips = [{ id: "all", name: "All" }].concat(cats);
