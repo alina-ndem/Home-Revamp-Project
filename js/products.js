@@ -32,6 +32,14 @@ window.CATEGORIES=[
  {
   "id": "pink",
   "name": "Blush Collection"
+ },
+ {
+  "id": "jewel",
+  "name": "The Jewel Atelier"
+ },
+ {
+  "id": "gadgets",
+  "name": "The Modern Maison"
  }
 ];
 window.PRODUCTS=[
@@ -609,6 +617,23 @@ window.PRODUCTS=[
     "w": 1199,
     "h": 1312,
     "top": "#e8dbc2"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "noir-vase-set",
+  "name": "Blue & White Ceramic Vase Collection",
+  "price": null,
+  "category": "noir",
+  "images": [
+   {
+    "src": "images/noir-vase-set.webp",
+    "thumb": "images/noir-vase-set-sm.webp",
+    "w": 1448,
+    "h": 1086,
+    "top": "#c0a281",
+    "bot": "#483d36"
    }
   ],
   "sold": false
@@ -1832,6 +1857,404 @@ window.PRODUCTS=[
     "w": 1050,
     "h": 1400,
     "top": "#c98471"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-emerald-choker",
+  "name": "Emerald Filigree Choker Set with Earrings",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-emerald-choker.webp",
+    "thumb": "images/jewel-emerald-choker-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#141110",
+    "bot": "#0d0b0c"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-leaf-bangles",
+  "name": "Gold Leaf Charm Bangles (Two Sets)",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-leaf-bangles.webp",
+    "thumb": "images/jewel-leaf-bangles-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#38383b",
+    "bot": "#111215"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-starburst-clips",
+  "name": "Gold Starburst Crystal Hair Clips (Pair)",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-starburst-clips.webp",
+    "thumb": "images/jewel-starburst-clips-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#0c0b0b",
+    "bot": "#0e0e0e"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-gold-bridal-set",
+  "name": "Ornate Gold Necklace Set with Earrings & Tikka",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-gold-bridal-set.webp",
+    "thumb": "images/jewel-gold-bridal-set-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#c9b091",
+    "bot": "#cab19c"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-beaded-set",
+  "name": "Gold & Black Bead Tassel Necklace Set",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-beaded-set.webp",
+    "thumb": "images/jewel-beaded-set-sm.webp",
+    "w": 1199,
+    "h": 1312,
+    "top": "#171514",
+    "bot": "#0d0c0d"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-square-earrings",
+  "name": "Gold & Silver Crystal Square Earrings",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-square-earrings.webp",
+    "thumb": "images/jewel-square-earrings-sm.webp",
+    "w": 1213,
+    "h": 1296,
+    "top": "#cfb07d",
+    "bot": "#d3b89c"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-filigree-ring",
+  "name": "Silver Filigree Statement Ring",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-filigree-ring.webp",
+    "thumb": "images/jewel-filigree-ring-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#111010",
+    "bot": "#0c0b0c"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-floral-studs",
+  "name": "Crystal Floral Stud Earrings",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-floral-studs.webp",
+    "thumb": "images/jewel-floral-studs-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#131212",
+    "bot": "#0b0a0a"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-fringe-earrings",
+  "name": "Crystal Fringe Chandelier Earrings",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-fringe-earrings.webp",
+    "thumb": "images/jewel-fringe-earrings-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#0c0b0b",
+    "bot": "#0d0d0d"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-lattice-pendant",
+  "name": "Crystal & Onyx Lattice Pendant with Tassel",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-lattice-pendant.webp",
+    "thumb": "images/jewel-lattice-pendant-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#111011",
+    "bot": "#121112"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-zigzag-earrings",
+  "name": "Zigzag Crystal Drop Earrings",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-zigzag-earrings.webp",
+    "thumb": "images/jewel-zigzag-earrings-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#111011",
+    "bot": "#141314"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-antique-set",
+  "name": "Antique Gold Filigree Set with Earrings & Tikka",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-antique-set.webp",
+    "thumb": "images/jewel-antique-set-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#12100f",
+    "bot": "#090909"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "jewel-medallions",
+  "name": "Crystal Filigree Medallion Pieces (Pair)",
+  "price": null,
+  "category": "jewel",
+  "images": [
+   {
+    "src": "images/jewel-medallions.webp",
+    "thumb": "images/jewel-medallions-sm.webp",
+    "w": 1199,
+    "h": 1312,
+    "top": "#111111",
+    "bot": "#0b0a0a"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "lobby-magnet-display",
+  "name": "Fridge Magnet Display (21 Pieces)",
+  "price": 80,
+  "category": "lobby",
+  "images": [
+   {
+    "src": "images/lobby-magnet-display.webp",
+    "thumb": "images/lobby-magnet-display-sm.webp",
+    "w": 1400,
+    "h": 1120,
+    "top": "#978a7f",
+    "bot": "#e5cab7"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "gadget-steril",
+  "name": "Steril Professional Sterilizer Cabinet",
+  "price": null,
+  "category": "gadgets",
+  "images": [
+   {
+    "src": "images/gadget-steril.webp",
+    "thumb": "images/gadget-steril-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#f3dbc0",
+    "bot": "#ead4c1"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "gadget-foot-spa",
+  "name": "Taurus Bahia Essential Foot Spa",
+  "price": null,
+  "category": "gadgets",
+  "images": [
+   {
+    "src": "images/gadget-foot-spa.webp",
+    "thumb": "images/gadget-foot-spa-sm.webp",
+    "w": 1206,
+    "h": 1305,
+    "top": "#ccb097",
+    "bot": "#c5a88e"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "gadget-facial-steamer",
+  "name": "Taurus Sauna Essential Facial Steamer",
+  "price": null,
+  "category": "gadgets",
+  "images": [
+   {
+    "src": "images/gadget-facial-steamer.webp",
+    "thumb": "images/gadget-facial-steamer-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#eee3dc",
+    "bot": "#d1b29b"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "gadget-westpoint-freezer",
+  "name": "Westpoint Upright Freezer",
+  "price": null,
+  "category": "gadgets",
+  "images": [
+   {
+    "src": "images/gadget-westpoint-freezer-1.webp",
+    "thumb": "images/gadget-westpoint-freezer-1-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#e5dacc",
+    "bot": "#c3a88e"
+   },
+   {
+    "src": "images/gadget-westpoint-freezer-2.webp",
+    "thumb": "images/gadget-westpoint-freezer-2-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#f2e9e0",
+    "bot": "#c7ac91"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "gadget-samsung-fridge",
+  "name": "Samsung Side-by-Side Refrigerator",
+  "price": 2000,
+  "category": "gadgets",
+  "images": [
+   {
+    "src": "images/gadget-samsung-fridge-1.webp",
+    "thumb": "images/gadget-samsung-fridge-1-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#e7dfd8",
+    "bot": "#cdaf93"
+   },
+   {
+    "src": "images/gadget-samsung-fridge-2.webp",
+    "thumb": "images/gadget-samsung-fridge-2-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#e7dad0",
+    "bot": "#dac0ab"
+   }
+  ],
+  "sold": true
+ },
+ {
+  "id": "gadget-beauty-gadgets",
+  "name": "Beauty & Wellness Gadget Collection (Steamer, Massager, Foot Spa, Hair Brush)",
+  "price": null,
+  "category": "gadgets",
+  "images": [
+   {
+    "src": "images/gadget-beauty-gadgets-1.webp",
+    "thumb": "images/gadget-beauty-gadgets-1-sm.webp",
+    "w": 1400,
+    "h": 788,
+    "top": "#ecdfd3",
+    "bot": "#ebddcf"
+   },
+   {
+    "src": "images/gadget-beauty-gadgets-2.webp",
+    "thumb": "images/gadget-beauty-gadgets-2-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#d6b9a2",
+    "bot": "#cdae94"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "gadget-bompani-range",
+  "name": "Bompani Gas Range with Oven (5 Burners)",
+  "price": null,
+  "category": "gadgets",
+  "images": [
+   {
+    "src": "images/gadget-bompani-range.webp",
+    "thumb": "images/gadget-bompani-range-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#7b4d3a",
+    "bot": "#bb8f6d"
+   }
+  ],
+  "sold": false
+ },
+ {
+  "id": "gadget-display-stand",
+  "name": "White Metal Display Stand with Black Panel",
+  "price": null,
+  "category": "gadgets",
+  "images": [
+   {
+    "src": "images/gadget-display-stand.webp",
+    "thumb": "images/gadget-display-stand-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#c5bab1",
+    "bot": "#d4baa4"
    }
   ],
   "sold": false
