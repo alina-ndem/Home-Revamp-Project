@@ -153,7 +153,7 @@ window.PRODUCTS=[
  {
   "id": "master-globe-lamp",
   "name": "Ornate Globed Lamp with Rope Accents and Stand",
-  "price": 150,
+  "price": 99,
   "category": "master",
   "images": [
    {
@@ -195,7 +195,7 @@ window.PRODUCTS=[
  {
   "id": "master-coral-floor-lamp",
   "name": "Warm Coral Glow Floor Lamp",
-  "price": 130,
+  "price": 89,
   "category": "master",
   "images": [
    {
@@ -212,7 +212,7 @@ window.PRODUCTS=[
  {
   "id": "master-ivy-vase",
   "name": "Cascading Ivy in Textured Black Vase",
-  "price": 120,
+  "price": 79,
   "category": "master",
   "images": [
    {
@@ -229,7 +229,7 @@ window.PRODUCTS=[
  {
   "id": "master-persian-rug",
   "name": "Deep Maroon Persian Rug",
-  "price": 150,
+  "price": 99,
   "category": "master",
   "images": [
    {
@@ -377,7 +377,7 @@ window.PRODUCTS=[
  {
   "id": "burg-floral-lit",
   "name": "Warmly Lit Floral Arrangement",
-  "price": 200,
+  "price": 99,
   "category": "burgundy",
   "images": [
    {
@@ -395,7 +395,7 @@ window.PRODUCTS=[
  {
   "id": "burg-long-lamp",
   "name": "Long Lamp",
-  "price": 100,
+  "price": 79,
   "category": "burgundy",
   "images": [
    {
@@ -413,7 +413,7 @@ window.PRODUCTS=[
  {
   "id": "burg-computer-table",
   "name": "Glass Computer Table",
-  "price": 100,
+  "price": 79,
   "category": "burgundy",
   "images": [
    {
@@ -431,7 +431,7 @@ window.PRODUCTS=[
  {
   "id": "burg-flower-stand",
   "name": "Flower Arrangement with Iron Stand",
-  "price": 100,
+  "price": 69,
   "category": "burgundy",
   "images": [
    {
@@ -464,8 +464,8 @@ window.PRODUCTS=[
  },
  {
   "id": "noir-sofa-two",
-  "name": "Two-Seater Leather Sofa with Ottoman",
-  "price": 620,
+  "name": "Two-Seater Leather Sofa with Ottoman and Side Table",
+  "price": 499,
   "category": "noir",
   "images": [
    {
@@ -497,7 +497,7 @@ window.PRODUCTS=[
  {
   "id": "noir-sofa-long",
   "name": "Long Leather Sofa with Side Table",
-  "price": 550,
+  "price": 399,
   "category": "noir",
   "images": [
    {
@@ -568,7 +568,7 @@ window.PRODUCTS=[
  {
   "id": "noir-desk",
   "name": "Wooden Study Table",
-  "price": 200,
+  "price": 149,
   "category": "noir",
   "images": [
    {
@@ -632,7 +632,7 @@ window.PRODUCTS=[
  {
   "id": "noir-lamp-chrome",
   "name": "Modern Chrome Table Lamp",
-  "price": 70,
+  "price": 49,
   "category": "noir",
   "images": [
    {
@@ -826,7 +826,7 @@ window.PRODUCTS=[
  {
   "id": "lounge-ornate-side",
   "name": "Elegant Ornate Side Table",
-  "price": null,
+  "price": 59,
   "category": "lounge",
   "images": [
    {
@@ -918,7 +918,7 @@ window.PRODUCTS=[
  {
   "id": "drawing-vases",
   "name": "Bronze Vases & Sculpture Set (4 Pieces)",
-  "price": 350,
+  "price": 249,
   "category": "drawing",
   "images": [
    {
@@ -935,8 +935,8 @@ window.PRODUCTS=[
  },
  {
   "id": "drawing-lamp-table",
-  "name": "Long Lamp & Glass Side Table with Flowers",
-  "price": 310,
+  "name": "Long Lamp & Glass Side Table with Flowers (3 Items)",
+  "price": 219,
   "category": "drawing",
   "images": [
    {
@@ -954,7 +954,7 @@ window.PRODUCTS=[
  {
   "id": "drawing-panels",
   "name": "Mother-of-Pearl Wall Panels (Pair)",
-  "price": 300,
+  "price": 149,
   "category": "drawing",
   "images": [
    {
@@ -972,7 +972,7 @@ window.PRODUCTS=[
  {
   "id": "drawing-zayed-lamp",
   "name": "Sheikh Zayed Tribute Lamp",
-  "price": 200,
+  "price": 99,
   "category": "drawing",
   "images": [
    {
@@ -1008,7 +1008,7 @@ window.PRODUCTS=[
  {
   "id": "drawing-glass-table",
   "name": "Glass Side Table with Shelf",
-  "price": 150,
+  "price": 79,
   "category": "drawing",
   "images": [
    {
@@ -1026,7 +1026,7 @@ window.PRODUCTS=[
  {
   "id": "drawing-brass-lamp",
   "name": "Antique Brass Floor Lamp",
-  "price": 100,
+  "price": 59,
   "category": "drawing",
   "images": [
    {
@@ -1166,7 +1166,7 @@ window.PRODUCTS=[
  {
   "id": "dining-counter",
   "name": "Black Counter Cabinet",
-  "price": 300,
+  "price": 249,
   "category": "dining",
   "images": [
    {
@@ -1184,7 +1184,7 @@ window.PRODUCTS=[
  {
   "id": "dining-marble-trolley",
   "name": "Black & White Marble Trolley",
-  "price": 300,
+  "price": 249,
   "category": "dining",
   "images": [
    {
@@ -1202,7 +1202,7 @@ window.PRODUCTS=[
  {
   "id": "dining-clock",
   "name": "Mahogany Grandfather Clock",
-  "price": 300,
+  "price": 249,
   "category": "dining",
   "images": [
    {
@@ -1292,7 +1292,7 @@ window.PRODUCTS=[
  {
   "id": "dining-side-table",
   "name": "Chrome & Glass Round Side Table",
-  "price": 100,
+  "price": 69,
   "category": "dining",
   "images": [
    {
@@ -1310,7 +1310,7 @@ window.PRODUCTS=[
  {
   "id": "dining-palm",
   "name": "Faux Palm Plant with Birdhouse Stand",
-  "price": 80,
+  "price": 49,
   "category": "dining",
   "images": [
    {
@@ -1380,7 +1380,7 @@ window.PRODUCTS=[
  {
   "id": "lobby-lamp-box",
   "name": "Lamp and Leather Storage Box",
-  "price": 100,
+  "price": 79,
   "category": "lobby",
   "images": [
    {
@@ -1398,7 +1398,7 @@ window.PRODUCTS=[
  {
   "id": "lobby-bamboo",
   "name": "Rustic Bamboo Wall Hangings",
-  "price": 80,
+  "price": 49,
   "category": "lobby",
   "images": [
    {
@@ -1416,7 +1416,7 @@ window.PRODUCTS=[
  {
   "id": "lobby-net-lamp",
   "name": "Net Lamp",
-  "price": 80,
+  "price": 59,
   "category": "lobby",
   "images": [
    {
@@ -1434,7 +1434,7 @@ window.PRODUCTS=[
  {
   "id": "lobby-plaque-square",
   "name": "Ornate Islamic Calligraphy Wall Plaque (Square)",
-  "price": 50,
+  "price": 29,
   "category": "lobby",
   "images": [
    {
@@ -1452,7 +1452,7 @@ window.PRODUCTS=[
  {
   "id": "lobby-frames",
   "name": "Wooden Wall Frames, 2-Piece Set",
-  "price": 50,
+  "price": 29,
   "category": "lobby",
   "images": [
    {
@@ -1470,7 +1470,7 @@ window.PRODUCTS=[
  {
   "id": "lobby-plaque-tall",
   "name": "Ornate Islamic Calligraphy Wall Plaque (Tall)",
-  "price": 30,
+  "price": 29,
   "category": "lobby",
   "images": [
    {
@@ -1504,7 +1504,7 @@ window.PRODUCTS=[
  {
   "id": "lobby-rug-shag",
   "name": "Abstract Cream & Brown Shag Rug",
-  "price": 80,
+  "price": 59,
   "category": "lobby",
   "images": [
    {
@@ -1552,7 +1552,7 @@ window.PRODUCTS=[
  {
   "id": "lobby-rug-geometric",
   "name": "Modern Geometric Brown & Cream Rug",
-  "price": 80,
+  "price": 69,
   "category": "lobby",
   "images": [
    {
@@ -1568,7 +1568,7 @@ window.PRODUCTS=[
  {
   "id": "lobby-office-chair",
   "name": "Orange & Black Office Chair",
-  "price": 100,
+  "price": 79,
   "category": "lobby",
   "images": [
    {
@@ -1607,7 +1607,7 @@ window.PRODUCTS=[
  {
   "id": "pink-bunk-bed",
   "name": "Whimsical Pink Fairy Bunk Bed",
-  "price": 1000,
+  "price": 949,
   "category": "pink",
   "images": [
    {
@@ -1623,7 +1623,7 @@ window.PRODUCTS=[
  {
   "id": "pink-single-bed",
   "name": "Cozy Pink Single Bed",
-  "price": 200,
+  "price": 149,
   "category": "pink",
   "images": [
    {
@@ -1639,7 +1639,7 @@ window.PRODUCTS=[
  {
   "id": "pink-dressing-table",
   "name": "Pink Dressing Table with Chair & Lamp",
-  "price": 200,
+  "price": 189,
   "category": "pink",
   "images": [
    {
@@ -1655,7 +1655,7 @@ window.PRODUCTS=[
  {
   "id": "pink-shelves-toybox",
   "name": "Pink Wall Shelves, Toybox & Lamp",
-  "price": 200,
+  "price": 149,
   "category": "pink",
   "images": [
    {
@@ -1671,7 +1671,7 @@ window.PRODUCTS=[
  {
   "id": "pink-study-table",
   "name": "Wooden Study Table",
-  "price": 200,
+  "price": 149,
   "category": "pink",
   "images": [
    {
@@ -1687,7 +1687,7 @@ window.PRODUCTS=[
  {
   "id": "pink-storage-cabinet-curtain",
   "name": "Storage Box, Cabinet & Curtain",
-  "price": 150,
+  "price": 149,
   "category": "pink",
   "images": [
    {
@@ -1710,7 +1710,7 @@ window.PRODUCTS=[
  {
   "id": "pink-pastel-cabinet",
   "name": "Elegant Pastel Pink Cabinet",
-  "price": 100,
+  "price": 79,
   "category": "pink",
   "images": [
    {
@@ -1725,8 +1725,8 @@ window.PRODUCTS=[
  },
  {
   "id": "pink-cabinet-lamp",
-  "name": "Pink Step Cabinet with Lamp & Arrangement",
-  "price": 100,
+  "name": "Pink Step Cabinet with Lamp & Arrangement (3 Items)",
+  "price": 69,
   "category": "pink",
   "images": [
    {
@@ -1742,7 +1742,7 @@ window.PRODUCTS=[
  {
   "id": "pink-black-bookcase",
   "name": "Black Bookcase Cabinet",
-  "price": 200,
+  "price": 79,
   "category": "pink",
   "images": [
    {
@@ -1758,7 +1758,7 @@ window.PRODUCTS=[
  {
   "id": "pink-porcelain-dolls",
   "name": "Handmade Porcelain Dolls, Pair with 2 Dresses Each",
-  "price": 600,
+  "price": 399,
   "was": 2000,
   "category": "pink",
   "images": [
@@ -1775,7 +1775,7 @@ window.PRODUCTS=[
  {
   "id": "pink-rug-storybook",
   "name": "Pastel Princess Storybook Rug",
-  "price": 15,
+  "price": 11,
   "category": "pink",
   "images": [
    {
@@ -1791,7 +1791,7 @@ window.PRODUCTS=[
  {
   "id": "pink-rug-princess",
   "name": "Cozy Disney Princess Plush Rug",
-  "price": 15,
+  "price": 10,
   "category": "pink",
   "images": [
    {
@@ -1807,7 +1807,7 @@ window.PRODUCTS=[
  {
   "id": "pink-rug-chocolate",
   "name": "Pink Plush \"I Believe in Chocolate\" Rug",
-  "price": 50,
+  "price": 39,
   "category": "pink",
   "images": [
    {
@@ -1823,7 +1823,7 @@ window.PRODUCTS=[
  {
   "id": "pink-rug-rose",
   "name": "Tufted Pink Rose Bouquet Rug",
-  "price": 50,
+  "price": 39,
   "category": "pink",
   "images": [
    {
