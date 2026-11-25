@@ -2225,8 +2225,8 @@ window.PRODUCTS=[
  },
  {
   "id": "gadget-gas-cylinders",
-  "name": "Full-Size Gas Cylinders (26 kg)",
-  "price": 200 per cylinder,
+  "name": "One Full-Size Gas Cylinders (26 kg)",
+  "price": 200,
   "category": "gadgets",
   "images": [
    {
