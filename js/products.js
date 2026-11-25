@@ -308,7 +308,7 @@ window.PRODUCTS=[
     "bot": "#d3bead"
    }
   ],
-  "sold": false
+  "sold": true
  },
  {
   "id": "burg-bedset",
