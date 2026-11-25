@@ -2225,7 +2225,7 @@ window.PRODUCTS=[
  },
  {
   "id": "gadget-gas-cylinders",
-  "name": "Gas Cylinder (26 kg)",
+  "name": "Gas Cylinders (One 26 kg Cylinder)",
   "price": 100,
   "category": "gadgets",
   "images": [
