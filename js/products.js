@@ -2209,7 +2209,7 @@ window.PRODUCTS=[
  {
   "id": "gadget-bompani-range",
   "name": "Bompani Gas Range with Oven (5 Burners)",
-  "price": null,
+  "price": 500,
   "category": "gadgets",
   "images": [
    {
@@ -2221,7 +2221,7 @@ window.PRODUCTS=[
     "bot": "#bb8f6d"
    }
  ],
-  "sold": false
+  "sold": true
  },
  {
   "id": "gadget-gas-cylinders",
