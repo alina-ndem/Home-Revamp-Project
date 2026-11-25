@@ -2220,7 +2220,24 @@ window.PRODUCTS=[
     "top": "#7b4d3a",
     "bot": "#bb8f6d"
    }
-  ],
+ ],
   "sold": false
+ },
+ {
+  "id": "gadget-gas-cylinders",
+  "name": "Gas Cylinders (26 kg)",
+  "price": null,
+  "category": "gadgets",
+  "images": [
+   {
+    "src": "images/gadget-gas-cylinders.webp",
+    "thumb": "images/gadget-gas-cylinders-sm.webp",
+    "w": 1050,
+    "h": 1400,
+    "top": "#e0ceba",
+    "bot": "#827581"
+   }
+  ],
+  "sold": true
  }
 ];
