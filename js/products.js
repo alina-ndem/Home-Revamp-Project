@@ -40,6 +40,10 @@ window.CATEGORIES=[
  {
   "id": "gadgets",
   "name": "The Modern Maison"
+ },
+ {
+  "id": "cars",
+  "name": "The Motor Atelier"
  }
 ];
 window.PRODUCTS=[
@@ -2239,5 +2243,117 @@ window.PRODUCTS=[
    }
   ],
   "sold": true
+ },
+ {
+  "id": "car-lexus-rx350-fsport",
+  "name": "Lexus RX 350 F-Sport 2020",
+  "price": 131000,
+  "category": "cars",
+  "images": [
+   {
+    "src": "images/car-lexus-rx350-front.webp",
+    "thumb": "images/car-lexus-rx350-front-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#999548",
+    "bot": "#706b68"
+   },
+   {
+    "src": "images/car-lexus-rx350-side.webp",
+    "thumb": "images/car-lexus-rx350-side-sm.webp",
+    "w": 1400,
+    "h": 788,
+    "top": "#717516",
+    "bot": "#9f9997"
+   },
+   {
+    "src": "images/car-lexus-rx350-rear-quarter.webp",
+    "thumb": "images/car-lexus-rx350-rear-quarter-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#757728",
+    "bot": "#817975"
+   },
+   {
+    "src": "images/car-lexus-rx350-rear.webp",
+    "thumb": "images/car-lexus-rx350-rear-sm.webp",
+    "w": 1400,
+    "h": 1040,
+    "top": "#747435",
+    "bot": "#86807f"
+   },
+   {
+    "src": "images/car-lexus-rx350-wheel.webp",
+    "thumb": "images/car-lexus-rx350-wheel-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#484b51",
+    "bot": "#827f7d"
+   },
+   {
+    "src": "images/car-lexus-rx350-interior-door.webp",
+    "thumb": "images/car-lexus-rx350-interior-door-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#888c6a",
+    "bot": "#555154"
+   },
+   {
+    "src": "images/car-lexus-rx350-seats.webp",
+    "thumb": "images/car-lexus-rx350-seats-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#8c7e61",
+    "bot": "#693941"
+   },
+   {
+    "src": "images/car-lexus-rx350-cabin.webp",
+    "thumb": "images/car-lexus-rx350-cabin-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#737559",
+    "bot": "#662f39"
+   },
+   {
+    "src": "images/car-lexus-rx350-steering.webp",
+    "thumb": "images/car-lexus-rx350-steering-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#72777b",
+    "bot": "#1a1416"
+   },
+   {
+    "src": "images/car-lexus-rx350-controls.webp",
+    "thumb": "images/car-lexus-rx350-controls-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#454343",
+    "bot": "#3a2e2e"
+   },
+   {
+    "src": "images/car-lexus-rx350-console.webp",
+    "thumb": "images/car-lexus-rx350-console-sm.webp",
+    "w": 1086,
+    "h": 1448,
+    "top": "#7a859d",
+    "bot": "#a85059"
+   },
+   {
+    "src": "images/car-lexus-rx350-navigation.webp",
+    "thumb": "images/car-lexus-rx350-navigation-sm.webp",
+    "w": 1400,
+    "h": 788,
+    "top": "#9b9a79",
+    "bot": "#1f1f21"
+   },
+   {
+    "src": "images/car-lexus-rx350-cluster.webp",
+    "thumb": "images/car-lexus-rx350-cluster-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#171c23",
+    "bot": "#6b7582"
+   }
+  ],
+  "sold": true
  }
-];
