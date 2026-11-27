@@ -2428,5 +2428,86 @@ window.PRODUCTS=[
    }
   ],
   "sold": true
+ },
+{
+  "id": "car-ford-fusion-se-2012",
+  "name": "Ford Fusion SE 2012",
+  "price": null,
+  "category": "cars",
+  "images": [
+   {
+    "src": "images/car-ford-fusion-front.webp",
+    "thumb": "images/car-ford-fusion-front-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#2a3216",
+    "bot": "#928e8f"
+   },
+   {
+    "src": "images/car-ford-fusion-interior-door.webp",
+    "thumb": "images/car-ford-fusion-interior-door-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#5d623d",
+    "bot": "#4f4c4b"
+   },
+   {
+    "src": "images/car-ford-fusion-seats.webp",
+    "thumb": "images/car-ford-fusion-seats-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#595345",
+    "bot": "#545253"
+   },
+   {
+    "src": "images/car-ford-fusion-console.webp",
+    "thumb": "images/car-ford-fusion-console-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#6a6e64",
+    "bot": "#908b8f"
+   },
+   {
+    "src": "images/car-ford-fusion-rear-seats.webp",
+    "thumb": "images/car-ford-fusion-rear-seats-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#6b6848",
+    "bot": "#716a67"
+   },
+   {
+    "src": "images/car-ford-fusion-dashboard.webp",
+    "thumb": "images/car-ford-fusion-dashboard-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#a4a58b",
+    "bot": "#16181c"
+   },
+   {
+    "src": "images/car-ford-fusion-engine.webp",
+    "thumb": "images/car-ford-fusion-engine-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#616d6d",
+    "bot": "#888a92"
+   },
+   {
+    "src": "images/car-ford-fusion-engine-2.webp",
+    "thumb": "images/car-ford-fusion-engine-2-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#5f6156",
+    "bot": "#7d7470"
+   },
+   {
+    "src": "images/car-ford-fusion-wheel.webp",
+    "thumb": "images/car-ford-fusion-wheel-sm.webp",
+    "w": 1400,
+    "h": 1050,
+    "top": "#2e2e30",
+    "bot": "#77645b"
+   }
+  ],
+  "sold": false
  }
  ];
