@@ -64,8 +64,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.02}
 .stats .sold dd,.stats .sold dt{font-family:Montserrat,Jost,sans-serif;font-style:italic;font-weight:800;text-shadow:0 0 14px rgba(245,184,32,.5),0 2px 12px rgba(0,0,0,.6)}
 .stats .sold dd:not(.hurry){grid-area:n;font-size:clamp(3.8rem,9vw,6.5rem);line-height:.9;color:#fff}
 .stats .sold dt{grid-area:l;font-size:clamp(1.3rem,3vw,2.2rem);letter-spacing:.03em;color:#f5b820}
-.stats .sold .hurry{grid-area:h;font-size:clamp(1.3rem,3vw,2.2rem);line-height:1.15;text-transform:uppercase;color:#fff}
-.stats .sold .hurry::first-line{color:#f5b820}
+.stats .sold .hurry{grid-area:h;font-size:clamp(1.3rem,3vw,2.2rem);line-height:1;letter-spacing:.03em;text-transform:uppercase;color:#f5b820}
 @media(max-width:1700px){.header-in{gap:16px}.main-nav{gap:14px;font-size:.7rem;letter-spacing:.06em}.btn-sm{padding:10px 14px}}
 @media(max-width:1340px){.main-nav{display:none}.header-in{justify-content:space-between}.icon-btn{display:grid}.brand{margin-right:auto}}
 @media(max-width:620px){
