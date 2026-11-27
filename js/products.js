@@ -2432,7 +2432,7 @@ window.PRODUCTS=[
 {
   "id": "car-ford-fusion-se-2012",
   "name": "Ford Fusion SE 2012",
-  "price": null,
+  "price": 12500,
   "category": "cars",
   "images": [
    {
