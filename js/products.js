@@ -1627,7 +1627,7 @@ window.PRODUCTS=[
     "top": "#f0debc"
    }
   ],
-  "sold": true
+  "sold": false
  },
  {
   "id": "pink-bunk-bed",
