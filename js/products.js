@@ -1027,7 +1027,7 @@ window.PRODUCTS=[
     "bot": "#816e63"
    }
   ],
-  "sold": false,
+  "sold": true,
   "v": 0.525
  },
  {
