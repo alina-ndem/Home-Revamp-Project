@@ -2246,7 +2246,7 @@ window.PRODUCTS=[
  {
   "id": "car-lexus-rx350-fsport",
   "name": "Lexus RX 350 F-Sport 2020",
-  "price": 131000,
+  "price": 132000,
   "category": "cars",
   "images": [
    {
