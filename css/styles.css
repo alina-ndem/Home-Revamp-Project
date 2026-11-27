@@ -53,15 +53,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.02}
 .hero h1 em{color:#e8cfa8}
 .lead{max-width:520px;font-size:1.08rem;font-weight:300;color:#fff;text-shadow:0 1px 14px rgba(20,14,10,.45)}
 .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin:32px 0 48px}
-.stats{display:flex;gap:clamp(24px,5vw,64px);flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.3);padding-top:22px;max-width:640px}
+.stats{display:flex;align-items:center;gap:clamp(24px,4vw,56px);flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.3);padding-top:22px;max-width:none}
 .stats div{display:flex;flex-direction:column-reverse}
-.stats dt{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:#e8cfa8}
-.stats dd{font-family:var(--serif);font-size:2.2rem;line-height:1;text-shadow:0 1px 12px rgba(20,14,10,.4)}
-.stats{max-width:none}
-.stats .sold{column-gap:24px}
-.stats .sold dd:not(.hurry){grid-area:n;font-family:Montserrat,Jost,sans-serif;font-style:italic;font-weight:800;font-size:clamp(3.8rem,9vw,6.5rem);line-height:.9;color:#fff;text-shadow:0 0 22px rgba(245,184,32,.6),0 2px 14px rgba(0,0,0,.6)}
-.stats .sold dt{grid-area:l;font-family:Montserrat,Jost,sans-serif;font-style:italic;font-weight:800;font-size:clamp(1.3rem,3vw,2.2rem);letter-spacing:.03em;color:#f5b820;text-shadow:0 0 14px rgba(245,184,32,.7),0 2px 12px rgba(0,0,0,.6)}
-.stats .sold .hurry{grid-area:h;font-family:Montserrat,Jost,sans-serif;font-style:italic;font-weight:800;font-size:clamp(1.3rem,3vw,2.2rem);line-height:1.15;text-transform:uppercase;color:#fff;text-shadow:0 0 14px rgba(245,184,32,.5),0 2px 12px rgba(0,0,0,.6)}
+.stats dt,.stats dd{font-family:Montserrat,Jost,sans-serif;font-style:italic;font-weight:800;text-shadow:0 0 14px rgba(245,184,32,.5),0 2px 12px rgba(0,0,0,.6)}
+.stats dd{font-size:clamp(2.2rem,4.5vw,3.4rem);line-height:.95;color:#fff}
+.stats dt{font-size:clamp(.85rem,1.6vw,1.1rem);letter-spacing:.03em;text-transform:uppercase;color:#f5b820}
+
+.stats .sold{display:grid;grid-template-columns:auto auto;grid-template-areas:"n h" "l h";column-gap:24px;align-items:center}
+.stats .sold dd:not(.hurry){grid-area:n;font-size:clamp(3.8rem,9vw,6.5rem);line-height:.9}
+.stats .sold dt{grid-area:l;font-size:clamp(1.3rem,3vw,2.2rem)}
+.stats .sold .hurry{grid-area:h;font-size:clamp(1.3rem,3vw,2.2rem);line-height:1.15;text-transform:uppercase;color:#fff}
 .stats .sold .hurry::first-line{color:#f5b820}
 @media(max-width:1700px){.header-in{gap:16px}.main-nav{gap:14px;font-size:.7rem;letter-spacing:.06em}.btn-sm{padding:10px 14px}}
 @media(max-width:1340px){.main-nav{display:none}.header-in{justify-content:space-between}.icon-btn{display:grid}.brand{margin-right:auto}}
