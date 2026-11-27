@@ -1,4 +1,3 @@
-// EDIT THIS FILE to change prices, names, or mark items as sold.
 // price: number in AED (null = "Ask for price"); was: optional original price (shows struck-through); sold: true greys the item out.
 window.CATEGORIES=[
  {
@@ -2357,3 +2356,4 @@ window.PRODUCTS=[
   ],
   "sold": true
  }
+];
