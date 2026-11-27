@@ -250,3 +250,8 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.02}
   .chips{gap:20px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.card{opacity:1;transform:none}}
+
+.buyer-note{max-width:760px;margin:0 auto 56px;padding:32px clamp(20px,4vw,44px);background:var(--peach);border:1px solid var(--line);border-radius:6px;text-align:center}
+.buyer-note h3{font-size:1.6rem;margin-bottom:14px}
+.buyer-note p{font-size:.95rem;color:var(--muted);margin:0 auto 10px}
+.buyer-note p:last-child{margin-bottom:0;color:var(--ink)}
