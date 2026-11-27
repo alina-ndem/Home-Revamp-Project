@@ -183,6 +183,14 @@ src="https://www.facebook.com/tr?id=2461694741024988&ev=PageView&noscript=1"
   env.addEventListener("click",function(e){ if(env.classList.contains("out")&&e.target.closest(".env-letter")) return; toggle(); });
   env.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){e.preventDefault();toggle();} });
   window.addEventListener("resize",function(){ if(env.classList.contains("out")) measure(); });
+  /* open automatically the first time the envelope scrolls into view */
+  function autoOpen(){ if(!env.classList.contains("open")) toggle(); }
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(es){
+      if(es[0].isIntersecting){ io.disconnect(); setTimeout(autoOpen,700); }
+    },{threshold:0.6});
+    io.observe(env);
+  }else{ setTimeout(autoOpen,1500); }
 })();
 </script>
 <noscript><style>.env-letter{position:static!important;height:auto!important;padding-bottom:30px!important}.env-front,.env-flap,.env-seal,.env-hint{display:none}.env-body{aspect-ratio:auto}.env-back{display:none}</style></noscript>
