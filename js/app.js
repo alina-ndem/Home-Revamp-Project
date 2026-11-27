@@ -50,11 +50,10 @@
   $("#mainNav").innerHTML = cats.map(function (c) { return '<a href="#collection" data-cat="' + c.id + '">' + esc(c.name) + '</a>'; }).join("");
   var priced = prods.filter(function (p) { return p.price != null; });
   var minP = Math.min.apply(null, priced.map(function (p) { return p.price; }));
-  $("#stats").innerHTML = '<div><dt>Pieces</dt><dd>' + prods.length + '</dd></div><div><dt>Rooms</dt><dd>' + cats.length + '</dd></div><div><dt>Prices from</dt><dd>AED ' + minP + '</dd></div>';
+  var soldN = prods.filter(function (p) { return p.sold; }).length;
+  $("#stats").innerHTML = '<div><dt>Pieces</dt><dd>' + prods.length + '</dd></div><div><dt>Rooms</dt><dd>' + cats.length + '</dd></div><div><dt>Prices from</dt><dd>AED ' + minP + '</dd></div>' +
+    '<div class="sold"><dt>Sold out</dt><dd>' + soldN + '</dd><dd class="hurry">Hurry up.<br>Items selling out fast</dd></div>';
 
-// Sold-out counter (auto-updates from the "sold" flags in products.js)
-var soldN = prods.filter(function (p) { return p.sold; }).length;
-$("#soldCount").innerHTML = '<b>' + soldN + '</b> of ' + prods.length + ' items sold out';
   
   // ===== Tiles & chips =====
   $("#tiles").innerHTML = cats.map(function (c) {
