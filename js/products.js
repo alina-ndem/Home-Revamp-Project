@@ -655,7 +655,7 @@ window.PRODUCTS=[
     "top": "#fcf4e0"
    }
   ],
-  "sold": false
+  "sold": true
  },
  {
   "id": "noir-lamp-chrome",
