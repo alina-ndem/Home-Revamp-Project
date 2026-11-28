@@ -1135,7 +1135,7 @@ window.PRODUCTS=[
     "top": "#d0bb9b"
    }
   ],
-  "sold": false
+  "sold": true
  },
  {
   "id": "dining-table",
