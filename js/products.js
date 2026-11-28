@@ -471,7 +471,7 @@ window.PRODUCTS=[
     "top": "#d0bb9b"
    }
   ],
-  "sold": false
+  "sold": true
  },
  {
   "id": "noir-sofa-two",
@@ -1242,7 +1242,7 @@ window.PRODUCTS=[
     "bot": "#caaa98"
    }
   ],
-  "sold": false,
+  "sold": true,
   "v": 0.678
  },
  {
@@ -1367,7 +1367,7 @@ window.PRODUCTS=[
     "top": "#d0bb9b"
    }
   ],
-  "sold": false
+  "sold": true
  },
  {
   "id": "lobby-sony-tv",
@@ -2508,6 +2508,6 @@ window.PRODUCTS=[
     "bot": "#77645b"
    }
   ],
-  "sold": false
+  "sold": true
  }
  ];
